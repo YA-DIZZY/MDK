@@ -7,18 +7,18 @@ html{
 h1{
     margin: 0 0 29px 0;
     font-size: 32px;
-    font-family: "Inter", sans-serif;
+    font-family: "Literata", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     color: white;
 }
 p{
     margin: 0 0 19px 0;
     font-size: 24px;
-    font-family: "Inter", sans-serif;
+    font-family: "Literata", serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 400;
     font-style: normal;
     color: white;
 }
@@ -58,44 +58,18 @@ header{
     font-size: 24px;
 }
 .block_1{
-    width: 100%;
-    justify-content: end;
-    padding-top: 71px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.price{
     display: flex;
+    
 }
-.text{
-    margin: 0 40px 0 0;
+.price img{
+    margin-right: 150px;
+    margin-bottom: 100px
 }
-.back_image{
-    position: absolute;
-    z-index: -1;
-    width: 649px;
-    height: 409px;
-    background-color: #6B16AE;
-    filter: blur(80px);
-}
+
 .block_2{
-    margin-top: 200px;
-    width: 100%;
-    margin-left: 185px;
-    padding-top: 71px;
-    margin-bottom: 200px;
-}
-.m_play{
-    width: 100%;
-    display: flex;
-    justify-content: left;
-}
-.play{
-    margin-right: 100px;
-}
-.txt{
-    padding-left: 10px;
-    margin-top: 21px;
-    display: flex;
-    align-items: center;
-    width: 320px;
-    height: 79px;
-    background-color: #6B16AE;
-    border-radius: 10px;
+  
 }
